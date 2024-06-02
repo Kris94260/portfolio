@@ -18,9 +18,9 @@ const ProjectCard = (props) => {
       <div className="project-description">
         <p>{props.description}</p>
       </div>
-      <div className="project-links">
-        
-      </div>
+      { props.source ? <div className="project-links">
+        <a href={props.source}>Documentation &#x1F517;</a>
+      </div> : <></> }
 
       {/* <div className="project-tags">
         <div className="project-tag">

@@ -62,17 +62,14 @@ function App() {
           animate={controls}
           variants={containerVariants}
         >
-          <div className="skill">
-            <p className="skill-img" >Reseaux</p>
-          </div>
-          <div className="skill">
-            <p className="skill-img" >Virtualisation</p>
-          </div>
+          
           {skills.map((skill, index) => (
             <motion.div key={index} variants={skillVariants}>
               <Skill skill={skill} />
+              
             </motion.div>
           ))}
+          
           
         </motion.div>
       </section><br/>
@@ -119,6 +116,7 @@ function App() {
         <Heading firstWord="Contact" secondWord="Me" />
         <ContactForm />
       </section>
+      
 
       <Footer />
     </>

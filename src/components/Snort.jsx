@@ -1,0 +1,36 @@
+
+import "../App.css";
+import "./Documents.css"
+
+function Snort() {
+  return (
+    <>
+    <header className="header">
+      <nav>
+        <div className="logo">
+          <a href="/">
+          &lt;Kris
+            <span>Moreau&#47;&gt;</span>
+          </a>
+        </div>
+        <div className="menu">
+        <a href="/" className="navbar-btn">RETOUR</a>
+        </div>
+      </nav>
+    </header><br/><br/>
+
+    <body>
+        <p className="menu">Documentation de Snort</p><br/>
+        <div className="docs">
+        <iframe src="/snort.pdf" width="50%" height="900px" />
+        </div><br/><br/>
+
+    
+    </body>
+    </>
+
+  );
+};
+
+
+export default Snort;

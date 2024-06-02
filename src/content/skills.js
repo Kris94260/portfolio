@@ -8,6 +8,10 @@ const skills = [
   "git.svg",
   "github.svg",
   "linux.svg",
+  "php.png",
+  "réseaux",
+  "virtualisation"
+
 ]; // Add or remove skills here, make sure to include the image respective to the skill inside the public/skills folder and use the correct file extension
 
 export default skills;

@@ -488,7 +488,7 @@ form > input[type="submit"]:hover {
   text-decoration: none;
   margin: 10px;
 
-  color: white;
+  color: rgb(255, 0, 0);
 }
 .navbar-btn {
   padding: 10px;

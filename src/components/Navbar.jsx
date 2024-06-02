@@ -8,7 +8,7 @@ const Navbar = (props) => {
     <header className="header">
       <nav>
         <div className="logo">
-          <a href="index.html">
+          <a href="/">
             {props.firstName}
             <span>{props.lastName}</span>
           </a>
@@ -27,7 +27,9 @@ const Navbar = (props) => {
           <li>
             <a href="#projects">Projets</a>
           </li>
-          
+          <li>
+            <a href="/documents">Documents</a>
+          </li>          
           <li>
             <a href="#veille">Veilles</a>
           </li>
@@ -36,7 +38,7 @@ const Navbar = (props) => {
           </li>
           <li>
             <a href="/mon_cv.pdf" className="navbar-btn">
-            Télécharger mon CV
+            Mon CV
             </a>
           </li>
         </ul>
